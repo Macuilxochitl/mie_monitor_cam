@@ -10,7 +10,6 @@ class Cam(object):
     cap = None
 
     def __init__(self, cam_index: "index of cam in /dev" = 0):
-        print(111)
         resolution = self.max_resolution
         w, h = resolution.split("x")
         w, h = float(w), float(h)
